@@ -1,0 +1,1 @@
+web: gunicorn salonity.wsgi:application --log-file - 
